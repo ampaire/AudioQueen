@@ -1,11 +1,11 @@
-import logo from '../logo.svg';
 import '../styles/App.css';
+import SearchAppBar from './Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <SearchAppBar />
         <a
           className="App-link"
           href="https://reactjs.org"

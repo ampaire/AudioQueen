@@ -1,11 +1,11 @@
 import '../styles/App.css';
-import SearchAppBar from './Navbar';
+import Header from './Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <SearchAppBar />
+        <Header />
         <a
           className="App-link"
           href="https://reactjs.org"

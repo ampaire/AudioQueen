@@ -1,11 +1,11 @@
-import logo from '../logo.svg';
 import '../styles/App.css';
+import {Header} from './Navbar';
 
 function App() {
   return (
     <div className="App">
+       <Header />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App-link"
           href="https://reactjs.org"
